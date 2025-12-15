@@ -27,6 +27,6 @@ print(vectorizer.idf_)
 
 # You can also get the TF-IDF vector for a specific document
 # For example, for the first document:
-print("\nTF-IDF vector for the first document:\n")
+print("\nTF-IDF vector for the first document:")
 print(tfidf_df.iloc[0])
 # tfidf_df.to_csv("tfidf_matrix.csv")
